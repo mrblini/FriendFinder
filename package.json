@@ -1,0 +1,28 @@
+{
+  "name": "FriendFinder",
+  "version": "1.0.0",
+  "description": "### Overview",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mysql": "^2.17.1",
+    "nodemon": "^1.19.1",
+    "package-json": "^6.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pablodiazt/FriendFinder.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pablodiazt/FriendFinder/issues"
+  },
+  "homepage": "https://github.com/pablodiazt/FriendFinder#readme"
+}

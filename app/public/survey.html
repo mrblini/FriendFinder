@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>FF - Survey</title>
+    <!-- Latest compiled and minified CSS & JS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
+    <script src="https://code.jquery.com/jquery.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <!-- Font Awesome Icons -->
+    <script src="https://kit.fontawesome.com/84e2c4562c.js"></script>
+
+    <!-- CSS -->
+    <style>
+        body {
+            background-color: white;
+            padding: 0% 20% 0% 20%;
+        }
+
+        h1 {
+            font-size: 65px;
+            color: rgb(77, 108, 15);
+        }
+
+        h2 {
+            font-size: 38px;
+            color: rgb(77, 108, 15);
+        }
+
+        .jumbotron {
+            background-color: aliceblue;
+            margin-top: 30px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron">
+            <h1><i class="fas fa-user-friends" aria-hidden="true"></i> <strong> Friend Finder</strong></h1>
+            <hr />
+
+            <h2><strong>Survey Questions</strong></h2>
+            <h3>Rate how much you agree with the following statements.</h3>
+            <br />
+            <h4><strong>About You</strong></h4>
+
+            <form class="form">
+                <div class="form-group">
+                    <label for="name">
+                        <h5><strong>Name</strong></h5>
+                    </label>
+                    <input type="text" class="form-control" id="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="image">
+                        <h5><strong>Link to Photo Image</strong></h5>
+                    </label>
+                    <input type="text" class="form-control" id="image" required>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 1</strong></h5>
+                    <label for="q1" class="lead">You prefer to swim in a pool rather than in Barton Springs.</label>
+                    <br />
+                    <select id="q1" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 2</strong></h5>
+                    <label for="q2" class="lead">Generally speaking, you are comfortable meeting new people.</label>
+                    <br />
+                    <select id="q2" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 3</strong></h5>
+                    <label for="q3" class="lead">You always look for the best deal when you shop.</label>
+                    <br />
+                    <select id="q3" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 4</strong></h5>
+                    <label for="q4" class="lead">You are willing to try something you have never done before.</label>
+                    <br />
+                    <select id="q4" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 5</strong></h5>
+                    <label for="q5" class="lead">You enjoy the company of pets.</label>
+                    <br />
+                    <select id="q5" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 6</strong></h5>
+                    <label for="q6" class="lead">You would very much rather interview Madonna than Mariah Carey.</label>
+                    <br />
+                    <select id="q6" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 7</strong></h5>
+                    <label for="q7" class="lead">People tell you that you are a good listener.</label>
+                    <br />
+                    <select id="q7" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 8</strong></h5>
+                    <label for="q8" class="lead">You like to listen to your music on vinyl records.</label>
+                    <br />
+                    <select id="q8" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 9</strong></h5>
+                    <label for="q9" class="lead">When you realize you have made a mistake, you are quick to
+                        apologize.</label>
+                    <br />
+                    <select id="q9" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <div class="form-group">
+                    <h5><strong>Question 10</strong></h5>
+                    <label for="q10" class="lead">You feel more energetic after spending time with a group of
+                        friends.</label>
+                    <br />
+                    <select id="q10" class="chosen-select" required>
+                        <option value=""></option>
+                        <option value="1">1 (Strongly Disagree)</option>
+                        <option value="2">2</option>
+                        <option value="3">3 (Neither Disagree nor Agree)</option>
+                        <option value="4">4</option>
+                        <option value="5">5 (Strongly Agree)</option>
+                    </select>
+                </div>
+                <br />
+                <br />
+                <!-- Submit button -->
+                <div class="text-left">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i
+                            class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
+                </div>
+            </form>
+        </div>
+
+        <!-- Footer links -->
+        <footer class="footer">
+            <div>
+                <p><a href="/api/friends">API Friends List</a> | <a
+                        href="https://github.com/jebaquera/FriendFinder">GitHub Repo</a></p>
+                <!-- NEED TO ADD CORRECT LINK INFO HERE -->
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="modal" role="dialog">
+        <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal">&times;</button>
+                    <h4 class="modal-title"></h4>
+                </div>
+                <div class="modal-body"></div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End of Modal -->
+
+    <script type="text/javascript">
+        // Global variables
+        var nameVal, imageVal, q1Val, q2Val, q3Val, q4Val, q5Val, q6Val, q7Val, q8Val, q9Val, q10Val, newPerson;
+        // Capture user input selected values
+        $("#submit").on("click", function (event) {
+            event.preventDefault();
+            // Set global variable values
+            nameVal = $('#name').val();
+            imageVal = $('#image').val();
+            q1Val = parseInt($('#q1').val());
+            q2Val = parseInt($('#q2').val());
+            q3Val = parseInt($('#q3').val());
+            q4Val = parseInt($('#q4').val());
+            q5Val = parseInt($('#q5').val());
+            q6Val = parseInt($('#q6').val());
+            q7Val = parseInt($('#q7').val());
+            q8Val = parseInt($('#q8').val());
+            q9Val = parseInt($('#q9').val());
+            q10Val = parseInt($('#q10').val());
+            newPerson = {
+                name: nameVal,
+                image: imageVal,
+                responses: [q1Val, q2Val, q3Val, q4Val, q5Val, q6Val, q7Val, q8Val, q9Val, q10Val],
+                total: q1Val + q2Val + q3Val + q4Val + q5Val + q6Val + q7Val + q8Val + q9Val + q10Val
+            };
+            // Set local variables
+            var modalTitle = $('.modal-title');
+            var modalBody = $('.modal-body');
+            var modal = $('#modal');
+            var apiFriendsRoute = '/api/friends';
+            if (formIsValid()) {
+                // $.get(apiFriendsRoute, function(data) {
+
+                // }).then(function() {
+                // $('.form')[0].reset();
+                $.post(apiFriendsRoute, newPerson);
+                var match = makeMatch(data);
+                if (match.name !== undefined) {
+                    modalTitle.text('You have a friend match!');
+                    modalBody.html(
+                        '<p class="strong">Based on your responses, you are most compatible with:</p><p>' +
+                        match.name + '</p><img src="' + match.image + '" height="45">');
+                } else {
+                    modalTitle.text('We couldn\'t find a match');
+                    modalBody.text('Sorry, there are too few friends to match you with.');
+                }
+                modal.show();
+                // });
+            } else {
+                modalTitle.text('Oops!');
+                modalBody.text('Please enter an answer for each of the questions before submitting.');
+                modal.show();
+            }
+        });
+
+        function formIsValid() {
+            return (nameVal !== '' && photoVal !== '' && !isNaN(q1Val) && !isNaN(q2Val) && !isNaN(q3Val) && !isNaN(
+                    q4Val) &&
+                !isNaN(q5Val) && !isNaN(q6Val) && !isNaN(q7Val) && !isNaN(q8Val) && !isNaN(q9Val) && !isNaN(q10Val));
+        }
+
+        function makeMatch(data) {
+            var difference = 50;
+            var minName;
+            var minImage;
+            data.forEach(function (person) {
+                var localDiff = Math.abs(newPerson.total - person.total);
+                if (localDiff < difference) {
+                    difference = localDiff;
+                    minName = person.name;
+                    minPhoto = person.image;
+                }
+            });
+            return {
+                name: minName,
+                photo: minImage
+            };
+        }
+    </script>
+</body>
