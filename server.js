@@ -12,8 +12,8 @@ app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // ============================================================= ROUTES
-var apiRoutes = require('./app/routing/apiRoutes')(app)
-var htmlRoutes = require('./app/routing/htmlRoutes')(app)
+var apiRoutes = require('./app/routing/apiRoutes.js')(app)
+var htmlRoutes = require('./app/routing/htmlRoutes.js')(app)
 
 // ============================================================= START SERVER & BEGIN TO LISTEN
 app.listen(PORT, function () {
