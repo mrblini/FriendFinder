@@ -1,27 +1,9 @@
-Skip to content
-
-Search or jump to…
-
-Pull requests
-Issues
-Marketplace
-Explore
-
-@pablodiazt
-0
-0 0 jebaquera/FriendFinder
-Code Issues 0 Pull requests 0 Projects 0 Wiki Security Insights
-FriendFinder/app/public/home.html
-@jebaquera jebaquera updates to css and README specs section.
-851229b yesterday
-59 lines (53 sloc) 1.67 KB
-
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
-    <title>FriendFinder</title>
+    <title>Friend Finder</title>
     <!-- Latest compiled and minified CSS & JS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" />
     <script src="https://code.jquery.com/jquery.js"></script>
@@ -32,23 +14,39 @@ FriendFinder/app/public/home.html
     <!-- CSS -->
     <style>
         body {
-            background-color: white;
+            background-color: rgb(197, 197, 197);
             padding: 0% 20% 0% 20%;
         }
 
         h1 {
             font-size: 65px;
-            color: rgb(77, 108, 15);
+            color: #850e28;
         }
 
         h2 {
             font-size: 38px;
-            color: rgb(77, 108, 15);
+            color: #850e28;
         }
 
         .jumbotron {
-            background-color: aliceblue;
+            background-color: rgb(186, 210, 231);
             margin-top: 30px;
+        }
+
+        a {
+        color: rgb(161, 117, 21);
+        }
+
+        a:active {
+        color: darkslategray;
+        }
+
+        a:visited {
+        color:slategray;
+        }
+
+        a:hover {
+        color: orangered;
         }
     </style>
 
@@ -56,39 +54,30 @@ FriendFinder/app/public/home.html
 
 <body>
     <div class="container">
-        <!-- Jumbotron -->
         <div class="jumbotron">
-            <h1><i class="fas fa-user-friends" aria-hidden="true"></i> <strong> Friend Finder</strong>
+            <h1><i class="fas fa-atlas" aria-hidden="true"></i> <strong> Friend Finder </strong></h1>
                 <hr />
-                <h2>Answer a few basic questions</h2>
-                <h2>Then find the friend with the greatest compatibility!</h2>
+                <h2>Answer the following questions.</h2>
+                <h2>You are close to finding ya soul mate!</h2>
                 <br />
+
                 <div class="text-left">
-                    <a href="/survey"><button class="btn btn-primary btn-lg"><span class="fa fa-list-alt"
-                                aria-hidden="true"></span> Go to Survey</button></a>
+                    <a href="./survey.html">
+                        <button class="btn btn-secondary btn-lg"><span class="fa fa-list-alt" aria-hidden="true"></span> Go to Survey </button>
+                    </a>
                 </div>
         </div>
 
         <!-- Footer links -->
         <footer class="footer">
             <div class="container">
-                <p><a href="/api/friends">API Friends List</a> | <a
-                        href="https://github.com/jebaquera/FriendFinder">GitHub Repo</a></p>
+                <p>
+                    <a href="./display_people.html">API Friends List</a> |  
+                    <a href="https://github.com/pablodiazt/FriendFinder">GitHub Repo</a>
+                </p>
             </div>
         </footer>
     </div>
 </body>
 
 </html>
-© 2019 GitHub, Inc.
-Terms
-Privacy
-Security
-Status
-Help
-Contact GitHub
-Pricing
-API
-Training
-Blog
-About

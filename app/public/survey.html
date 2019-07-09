@@ -53,16 +53,19 @@
                     </label>
                     <input type="text" class="form-control" id="name" required>
                 </div>
+
                 <div class="form-group">
                     <label for="image">
                         <h5><strong>Link to Photo Image</strong></h5>
                     </label>
                     <input type="text" class="form-control" id="image" required>
                 </div>
+
                 <br />
+
                 <div class="form-group">
                     <h5><strong>Question 1</strong></h5>
-                    <label for="q1" class="lead">You prefer to swim in a pool rather than in Barton Springs.</label>
+                    <label for="q1" class="lead">You prefer to be in the friend-zone.</label>
                     <br />
                     <select id="q1" class="chosen-select" required>
                         <option value=""></option>
@@ -76,7 +79,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 2</strong></h5>
-                    <label for="q2" class="lead">Generally speaking, you are comfortable meeting new people.</label>
+                    <label for="q2" class="lead">Generally speaking, you like your partner to be efficient and down to earth.</label>
                     <br />
                     <select id="q2" class="chosen-select" required>
                         <option value=""></option>
@@ -90,7 +93,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 3</strong></h5>
-                    <label for="q3" class="lead">You always look for the best deal when you shop.</label>
+                    <label for="q3" class="lead">You like a partner who can come up with a solution to problems.</label>
                     <br />
                     <select id="q3" class="chosen-select" required>
                         <option value=""></option>
@@ -104,7 +107,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 4</strong></h5>
-                    <label for="q4" class="lead">You are willing to try something you have never done before.</label>
+                    <label for="q4" class="lead">You believe in The Hot Crazy Matrix.</label>
                     <br />
                     <select id="q4" class="chosen-select" required>
                         <option value=""></option>
@@ -118,7 +121,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 5</strong></h5>
-                    <label for="q5" class="lead">You enjoy the company of pets.</label>
+                    <label for="q5" class="lead">You enjoy the company of someone who is fun and energetic.</label>
                     <br />
                     <select id="q5" class="chosen-select" required>
                         <option value=""></option>
@@ -132,7 +135,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 6</strong></h5>
-                    <label for="q6" class="lead">You would very much rather interview Madonna than Mariah Carey.</label>
+                    <label for="q6" class="lead">You would very much rather meet cool people.</label>
                     <br />
                     <select id="q6" class="chosen-select" required>
                         <option value=""></option>
@@ -160,7 +163,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 8</strong></h5>
-                    <label for="q8" class="lead">You like to listen to your music on vinyl records.</label>
+                    <label for="q8" class="lead">You like people who respect others time.</label>
                     <br />
                     <select id="q8" class="chosen-select" required>
                         <option value=""></option>
@@ -174,8 +177,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 9</strong></h5>
-                    <label for="q9" class="lead">When you realize you have made a mistake, you are quick to
-                        apologize.</label>
+                    <label for="q9" class="lead">You want someone who is forgiving and moderate.</label>
                     <br />
                     <select id="q9" class="chosen-select" required>
                         <option value=""></option>
@@ -189,8 +191,7 @@
                 <br />
                 <div class="form-group">
                     <h5><strong>Question 10</strong></h5>
-                    <label for="q10" class="lead">You feel more energetic after spending time with a group of
-                        friends.</label>
+                    <label for="q10" class="lead">You like all types of food.</label>
                     <br />
                     <select id="q10" class="chosen-select" required>
                         <option value=""></option>
@@ -304,7 +305,8 @@
             var minName;
             var minImage;
             data.forEach(function (person) {
-                var localDiff = Math.abs(newPerson.total - person.total);
+                var lo
+                calDiff = Math.abs(newPerson.total - person.total);
                 if (localDiff < difference) {
                     difference = localDiff;
                     minName = person.name;
