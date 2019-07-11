@@ -37,286 +37,247 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron">
-            <h1><i class="fas fa-user-friends" aria-hidden="true"></i> <strong> Friend Finder</strong></h1>
-            <hr />
+         <div class="container">
+             <h1>Survey</h1>
+             <hr>
+             <form class="form">
+                 <div class="form-group">
+                     <label for="name">Name</label>
+                     <input type="text" class="form-control" id="name" required>
+                 </div>
+                 <div class="form-group">
+                     <label for="image">Image URL</label>
+                     <input type="text" class="form-control" id="image" required>
+                 </div>
+                 <hr>
+                 <h2>Read each of the following statements and rate how much you agree with each one.</h2>
+                 <div class="form-group">
+                     <label for="q1" class="lead">You prefer to be in the friend-zone.</label>
+                     <select id="q1" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q2" class="lead">Generally speaking, you like your partner to be down to earth.</label>
+                     <select id="q2" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q3" class="lead">You believe in The Hot Crazy Matrix.</label>
+                     <select id="q3" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q4" class="lead">You enjoy the company of someone who is fun and energetic.</label>
+                     <select id="q4" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q5" class="lead">You would very much rather meet cool people.</label>
+                     <select id="q5" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q6" class="lead">People tell you that you are a good listener.</label>
+                     <select id="q6" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q7" class="lead">You like people who respect others time.</label>
+                     <select id="q7" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q8" class="lead">You like to listen to your music on vinyl records.</label>
+                     <select id="q8" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q9" class="lead">When you realize you have made a mistake, you are quick to
+                         apologize.</label>
+                     <select id="q9" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <div class="form-group">
+                     <label for="q10" class="lead">You want someone who is easy going.</label>
+                     <select id="q10" class="form-control" required>
+                         <option value="" selected disabled>Please select</option>
+                         <option value="1">1 (Strongly Disagree)</option>
+                         <option value="2">2</option>
+                         <option value="3">3</option>
+                         <option value="4">4</option>
+                         <option value="5">5 (Strongly Agree)</option>
+                     </select>
+                 </div>
+                 <br />
+                 <button type="button" id="submit" class="btn btn-success btn-lg btn-block" data-toggle="modal"
+                     data-target="#modal"><i class="fa fa-check-square" aria-hidden="true"></i> Submit</button>
+             </form>
+             <br />
+             <footer class="footer">
+                 <div class="container">
+                     <p><a href="/api/friends" target='_blank'>API Friends List</a> | <a
+                             href="https://github.com/jebaquera/FriendFinder" target='_blank'>GitHub</a></p>
+                 </div>
+             </footer>
+         </div>
 
-            <h2><strong>Survey Questions</strong></h2>
-            <h3>Rate how much you agree with the following statements.</h3>
-            <br />
-            <h4><strong>About You</strong></h4>
+         <!-- Modal -->
+         <div class="modal fade" id="modal" role="dialog">
+             <div class="modal-dialog modal-sm">
+                 <div class="modal-content">
+                     <div class="modal-header">
+                         <button type="button" class="close" data-dismiss="modal">&times;</button>
+                         <h4 class="modal-title"></h4>
+                     </div>
+                     <div class="modal-body"></div>
+                     <div class="modal-footer">
+                         <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                     </div>
+                 </div>
+             </div>
+         </div>
 
-            <form class="form">
-                <div class="form-group">
-                    <label for="name">
-                        <h5><strong>Name</strong></h5>
-                    </label>
-                    <input type="text" class="form-control" id="name" required>
-                </div>
+         <script type="text/javascript">
+             // declare global variables
+             var nameVal, imageVal, q1Val, q2Val, q3Val, q4Val, q5Val, q6Val, q7Val, q8Val, q9Val, q10Val, newPerson;
 
-                <div class="form-group">
-                    <label for="image">
-                        <h5><strong>Link to Photo Image</strong></h5>
-                    </label>
-                    <input type="text" class="form-control" id="image" required>
-                </div>
+             $('#submit').on('click', function (event) {
+                 event.preventDefault();
+                 // set global variable values for multiple uses in this and other functions
+                 nameVal = $('#name').val();
+                 imageVal = $('#image').val();
+                 q1Val = parseInt($('#q1').val());
+                 q2Val = parseInt($('#q2').val());
+                 q3Val = parseInt($('#q3').val());
+                 q4Val = parseInt($('#q4').val());
+                 q5Val = parseInt($('#q5').val());
+                 q6Val = parseInt($('#q6').val());
+                 q7Val = parseInt($('#q7').val());
+                 q8Val = parseInt($('#q8').val());
+                 q9Val = parseInt($('#q9').val());
+                 q10Val = parseInt($('#q10').val());
+                 newPerson = {
+                     name: nameVal,
+                     image: imageVal,
+                     responses: [q1Val, q2Val, q3Val, q4Val, q5Val, q6Val, q7Val, q8Val, q9Val, q10Val],
+                     total: q1Val + q2Val + q3Val + q4Val + q5Val + q6Val + q7Val + q8Val + q9Val + q10Val
+                 };
+                 // declare and set local variables
+                 var modalTitle = $('.modal-title');
+                 var modalBody = $('.modal-body');
+                 var modal = $('#modal');
+                 var apiFriendsRoute = '/api/friends';
 
-                <br />
+                 if (formIsValid()) {
+                     $.get(apiFriendsRoute, function (data) {
+                         var match = makeMatch(data);
+                         if (match.name !== undefined) {
+                             modalTitle.text('You have a friend match!');
+                             modalBody.html(
+                                 '<p class="strong">Based on your responses, you are most compatible with:</p><p>' +
+                                 match.name + '</p><img src="' + match.image + '">');
+                         } else {
+                             modalTitle.text('We couldn\t find a match');
+                             modalBody.text('Sorry, there are too few friends to match you with.');
+                         }
+                     }).then(function () {
+                         modal.show();
+                         $('.form')[0].reset();
+                         $.post(apiFriendsRoute, newPerson);
+                     });
+                 } else {
+                     modalTitle.text('Error');
+                     modalBody.text('Please make sure all questions have been filled in.');
+                     modal.show();
+                 }
+             });
 
-                <div class="form-group">
-                    <h5><strong>Question 1</strong></h5>
-                    <label for="q1" class="lead">You prefer to be in the friend-zone than to have benefits.</label>
-                    <br />
-                    <select id="q1" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 2</strong></h5>
-                    <label for="q2" class="lead">Generally speaking, you like your partner to be down to earth.</label>
-                    <br />
-                    <select id="q2" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 3</strong></h5>
-                    <label for="q3" class="lead">You like a partner who can come up with a solution to problems.</label>
-                    <br />
-                    <select id="q3" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 4</strong></h5>
-                    <label for="q4" class="lead">You believe in The Hot Crazy Matrix.</label>
-                    <br />
-                    <select id="q4" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 5</strong></h5>
-                    <label for="q5" class="lead">You enjoy the company of someone who is fun and energetic.</label>
-                    <br />
-                    <select id="q5" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 6</strong></h5>
-                    <label for="q6" class="lead">You would very much rather meet cool people.</label>
-                    <br />
-                    <select id="q6" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 7</strong></h5>
-                    <label for="q7" class="lead">People tell you that you are a good listener.</label>
-                    <br />
-                    <select id="q7" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 8</strong></h5>
-                    <label for="q8" class="lead">You like people who respect others time.</label>
-                    <br />
-                    <select id="q8" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 9</strong></h5>
-                    <label for="q9" class="lead">You want someone who is forgiving and moderate.</label>
-                    <br />
-                    <select id="q9" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <div class="form-group">
-                    <h5><strong>Question 10</strong></h5>
-                    <label for="q10" class="lead">You like all types of food.</label>
-                    <br />
-                    <select id="q10" class="chosen-select" required>
-                        <option value=""></option>
-                        <option value="1">1 (Strongly Disagree)</option>
-                        <option value="2">2</option>
-                        <option value="3">3 (Neither Disagree nor Agree)</option>
-                        <option value="4">4</option>
-                        <option value="5">5 (Strongly Agree)</option>
-                    </select>
-                </div>
-                <br />
-                <br />
-                <!-- Submit button -->
-                <div class="text-left">
-                    <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i
-                            class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
-                </div>
-            </form>
-        </div>
+             function formIsValid() {
+                 return (nameVal !== '' && imageVal !== '' && !isNaN(q1Val) && !isNaN(q2Val) && !isNaN(q3Val) && !isNaN(
+                         q4Val) &&
+                     !isNaN(q5Val) && !isNaN(q6Val) && !isNaN(q7Val) && !isNaN(q8Val) && !isNaN(q9Val) && !isNaN(
+                         q10Val));
+             }
 
-        <!-- Footer links -->
-        <footer class="footer">
-            <div>
-                <p><a href="/api/friends">API Friends List</a> | <a
-                        href="https://github.com/jebaquera/FriendFinder">GitHub Repo</a></p>
-                <!-- NEED TO ADD CORRECT LINK INFO HERE -->
-            </div>
-        </footer>
-    </div>
-
-    <!-- Modal -->
-    <div class="modal fade" id="modal" role="dialog">
-        <div class="modal-dialog modal-sm">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4 class="modal-title"></h4>
-                </div>
-                <div class="modal-body"></div>
-                <div class="modal-footer">
-                    <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- End of Modal -->
-
-    <script type="text/javascript">
-        // Global variables
-        var nameVal, imageVal, q1Val, q2Val, q3Val, q4Val, q5Val, q6Val, q7Val, q8Val, q9Val, q10Val, newPerson;
-        // Capture user input selected values
-        $("#submit").on("click", function (event) {
-            event.preventDefault();
-            // Set global variable values
-            nameVal = $('#name').val();
-            imageVal = $('#image').val();
-            q1Val = parseInt($('#q1').val());
-            q2Val = parseInt($('#q2').val());
-            q3Val = parseInt($('#q3').val());
-            q4Val = parseInt($('#q4').val());
-            q5Val = parseInt($('#q5').val());
-            q6Val = parseInt($('#q6').val());
-            q7Val = parseInt($('#q7').val());
-            q8Val = parseInt($('#q8').val());
-            q9Val = parseInt($('#q9').val());
-            q10Val = parseInt($('#q10').val());
-            newPerson = {
-                name: nameVal,
-                image: imageVal,
-                responses: [q1Val, q2Val, q3Val, q4Val, q5Val, q6Val, q7Val, q8Val, q9Val, q10Val],
-                total: q1Val + q2Val + q3Val + q4Val + q5Val + q6Val + q7Val + q8Val + q9Val + q10Val
-            };
-            // Set local variables
-            var modalTitle = $('.modal-title');
-            var modalBody = $('.modal-body');
-            var modal = $('#modal');
-            var apiFriendsRoute = '/api/friends';
-            if (formIsValid()) {
-                // $.get(apiFriendsRoute, function(data) {
-
-                // }).then(function() {
-                // $('.form')[0].reset();
-                $.post(apiFriendsRoute, newPerson);
-                var match = makeMatch(data);
-                if (match.name !== undefined) {
-                    modalTitle.text('You have a friend match!');
-                    modalBody.html(
-                        '<p class="strong">Based on your responses, you are most compatible with:</p><p>' +
-                        match.name + '</p><img src="' + match.image + '" height="45">');
-                } else {
-                    modalTitle.text('We couldn\'t find a match');
-                    modalBody.text('Sorry, there are too few friends to match you with.');
-                }
-                modal.show();
-                // });
-            } else {
-                modalTitle.text('Oops!');
-                modalBody.text('Please enter an answer for each of the questions before submitting.');
-                modal.show();
-            }
-        });
-
-        function formIsValid() {
-            return (nameVal !== '' && photoVal !== '' && !isNaN(q1Val) && !isNaN(q2Val) && !isNaN(q3Val) && !isNaN(
-                    q4Val) &&
-                !isNaN(q5Val) && !isNaN(q6Val) && !isNaN(q7Val) && !isNaN(q8Val) && !isNaN(q9Val) && !isNaN(q10Val));
-        }
-
-        function makeMatch(data) {
-            var difference = 50;
-            var minName;
-            var minImage;
-            data.forEach(function (person) {
-                var lo
-                calDiff = Math.abs(newPerson.total - person.total);
-                if (localDiff < difference) {
-                    difference = localDiff;
-                    minName = person.name;
-                    minPhoto = person.image;
-                }
-            });
-            return {
-                name: minName,
-                photo: minImage
-            };
-        }
-    </script>
+             function makeMatch(data) {
+                 var difference = 50;
+                 var minName;
+                 var minImage;
+                 data.forEach(function (person) {
+                     var localDiff = Math.abs(newPerson.total - person.total);
+                     if (localDiff < difference) {
+                         difference = localDiff;
+                         minName = person.name;
+                         minImage = person.image;
+                     }
+                 });
+                 return {
+                     name: minName,
+                     image: minImage
+                 };
+             }
+         </script>
 </body>
